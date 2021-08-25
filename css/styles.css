@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+}
+
+.main-nav {
+  width: 25%;
+  float: left;
+  padding: 15px;
+	background-color: rgb(90, 43, 43);
+  color: rgb(243, 241, 241);
+  font-size: 125%;
+}
+.flex-container{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 30px;
+  width: 75%
+}
+
+.images{
+  padding: 15px;
+  width: 25%;
+  float: right;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column-reverse;
+  vertical-align: middle;
+}
+
+.li-nav{
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  float: bottom;
+}
